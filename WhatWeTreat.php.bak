@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About EverythingPT">
+  <meta name="robots" content="index, follow" />
+  <title>EverythingPT | What We Treat</title>
+  <!-- Stylesheets & WhatWeTreat -->
+  <link href="../css/plugins.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!-- Search Engine Optimization -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EverythingPT | What We Treat">
+  <meta property="og:description" content="What We Treat EverythingPT">
+  <meta property="og:url" content="https://www.everythingpt.com/WhatWeTreat">
+  <meta property="og:image" content="/images/logos/EPT.png">
+  <meta property="og:image:width" content="900">
+  <meta property="og:image:height" content="754">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EverythingPT | What We Treat">
+  <meta name="twitter:description" content="What We Treat EverythingPT">
+  <meta name="twitter:image" content="/images/logos/EPT.png">
+  <link rel="canonical" href="https://www.everythingpt.com/WhatWeTreat" />
+  <link rel="icon" type="image/png" href="/images/logos/EPT.png">
+
+  <!-- Additional SEO data -->
+  <meta name="keywords" content="physical therapy, physical therapist, about, premium physical therapy">
+  <meta name="author" content="Dr.Eric Rosenfield">
+  <meta name="language" content="English">
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="../js/custom.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NPHC1LVQWX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NPHC1LVQWX');
+  </script>
+</head>
+<body>
+    <div class="body-inner">
+        <!-- Header -->
+        <?php include('include/header.php'); ?>
+        <!-- end: Header -->
+        <!-- Inspiro Slider -->
+                <div id="slider" class="inspiro-slider dots-creative" data-height-xs="360">
+            <!-- Slide 2 -->
+            <div class="slide kenburns" style="background-image:url('images/pages/Treat.webp');">
+            <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-center text-light">
+                        <!-- Captions -->
+                        <span class="strong">Who we are</span>
+                        <h1>What We Treat</h1>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+                </div>
+                </div>
+            <!-- end: Slide 2 -->
+        <!--end: Inspiro Slider -->
+        <section>
+        <div class="container">
+         <div class="row">
+              <div class="col-lg-4">
+                <h2>Back & Neck Pain</h2>
+                <ul>
+                     <li>Acute whiplash</li>
+                    <li>Ankylosing spondylitis</li>
+                    <li>Bulging discs</li>
+                    <li>Degenerative disc disease</li>
+                    <li>Disc herniation</li>
+                    <li>Headaches</li>
+                    <li>Lower back pain</li>
+                    <li>Mid back pain</li>
+                    <li>Neck injuries</li>
+                    <li>Neck pain</li>
+                    <li>Sciatica</li>
+                    <li>Spinal stenosis</li>
+                    <li>Spondylosis</li>
+                    <li>Thoracic outlet syndrome</li>
+                    <li>Upper back pain</li>
+                    <li>and more...</li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+               <h2>Orthopedic/Sports Injuries</h2>
+                        <ul>
+                            <li>Adhesive capsulitis</li>
+                            <li>Ankle injuries</li>
+                            <li>Bone fractures</li>
+                            <li>Bursitis</li>
+                            <li>Carpal tunnel syndrome</li>
+                            <li>Dislocated shoulder</li>
+                            <li>Femoroacetabular impingement</li>
+                            <li>Foot injuries</li>
+                            <li>Golfer’s elbow</li>
+                            <li>Heel pain</li>
+                            <li>Heel spurs</li>
+                            <li>Knee pain</li>
+                            <li>Labral tears</li>
+                            <li>Ligament injuries</li>
+                            <li>Meniscus injuries</li>
+                            <li>Plantar fasciitis</li>
+                            <li>Rotator cuff impingement</li>
+                            <li>Shin splints</li>
+                            <li>Tendonitis</li>
+                            <li>Tennis elbow</li>
+                            <li>and more...</li>
+                        </ul>
+               </div>
+               <div class="col-lg-4">
+               <h2>Focused Training</h2>
+                <ul>
+                    <li>Core stabilization</li>
+                    <li>Core strengthening</li>
+                    <li>Gait analysis</li>
+                    <li>Movement analysis</li>
+                    <li>Return to golf</li>
+                    <li>Return to gym</li>
+                    <li>Return to running</li>
+                    <li>Return to throwing</li>
+                    <li>Strengthening program</li>
+                    <li>Vestibular rehab</li>
+                    <li>and more...</li>
+                </ul>
+               </div>
+          </div>
+          
+          
+           <div class="row">
+              <div class="col-lg-4">
+                <h2>Post-Surgical Rehabilitation</h2>
+                <ul>
+                    <li>ACL reconstruction</li>
+                    <li>Arthroscopic procedures</li>
+                    <li>Hip replacement</li>
+                    <li>Joint replacement</li>
+                    <li>Labral repairs</li>
+                    <li>Meniscal repairs</li>
+                    <li>Rehab post fracture fixation</li>
+                    <li>Reverse total shoulder arthroplasty</li>
+                    <li>Rotator cuff repairs</li>
+                    <li>Spinal fusion</li>
+                    <li>Spinal procedures</li>
+                    <li>Total knee replacement</li>
+                    <li>and more...</li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+               <h2>Senior Care</h2>
+                        <ul>
+                                    <li>Arthritis</li>
+                                    <li>Balance disorders</li>
+                                    <li>Degenerative joint disease</li>
+                                    <li>Difficulty with gait</li>
+                                    <li>Fall prevention</li>
+                                    <li>General deconditioning</li>
+                                    <li>Hip pain</li>
+                                    <li>Muscle weakness</li>
+                                    <li>Osteoarthritis</li>
+                                    <li>Osteoporosis</li>
+                                    <li>Posture training</li>
+                                    <li>Prehab before joint replacement</li>
+                                    <li>Urinary incontinence</li>
+                                    <li>and more...</li>
+                        </ul>
+               </div>
+               <div class="col-lg-4">
+               <h2>Specialty Care</h2>
+                <ul>
+                    <li>Amyotrophic lateral sclerosis (ALS)</li>
+                    <li>Cerebral palsy</li>
+                    <li>CRPS</li>
+                    <li>De Quervain’s</li>
+                    <li>Diastasis recti</li>
+                    <li>Fibromyalgia</li>
+                    <li>ITB syndrome</li>
+                    <li>Multiple sclerosis (MS)</li>
+                    <li>Neurologic therapy</li>
+                    <li>Patellofemoral pain syndrome</li>
+                    <li>Pelvic floor therapy</li>
+                    <li>Piriformis syndrome</li>
+                    <li>Pregnancy & postpartum care</li>
+                    <li>Stroke</li>
+                    <li>Women’s health therapy</li>
+                    <li>and more...</li>
+                </ul>
+               </div>
+          </div>
+          
+          
+          
+                     <div class="row">
+              <div class="col-lg-4">
+               <h2>Additional Conditions</h2>
+                        <ul>
+                            <li>Chronic pain</li>
+                            <li>Concussions</li>
+                            <li>Hand and wrist conditions</li>
+                            <li>Lymphedema</li>
+                            <li>Muscular dystrophy</li>
+                            <li>Parkinson's disease</li>
+                            <li>Pediatric conditions</li>
+                            <li>Peripheral neuropathy</li>
+                            <li>Post-polio syndrome</li>
+                            <li>Spinal cord injury</li>
+                            <li>Traumatic brain injury</li>
+                            <li>and more...</li>
+                        </ul>
+               </div>
+          </div>
+          </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-text heading-section text-center">
+                            <h2>THE COMPANY</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Introducing Everything Physical Therapy & Wellness, a premier private concierge Physical Therapy service dedicated to making therapy accessible, straightforward, and effective for all our clients. Our top priority is to provide exceptional care in the comfort and convenience of your home, office, or gym.</p>
+                        <p>Leveraging the most advanced rehab technology available, we employ portable smart tech rehab equipment to elevate our services and ensure optimal results. As an out-of-network, cash-based practice, we are proud to offer a higher caliber of care compared to standard in-network providers.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <p>At Concierge Physical Therapy, we understand the importance of making your therapy, rehabilitation, and fitness journey as effortless and convenient as possible. Our approach focuses on addressing the root causes of your pain and discomfort, using holistic methods and avoiding dependency on pills and surgeries.</p>
+                        <p>We employ evidence-based practices and cutting-edge medical equipment, such as cold laser therapy and compression therapy, to help you feel your best. We are committed to guiding you towards a healthier, pain-free life.</p>
+                        <p>Contact us today to discover how Everything Physical Therapy & Wellness can help you unlock your full potential and achieve lasting results. Let us be your trusted partner on the path to improved well-being.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+ <!-- Footer -->
+        <?php include('include/footer.php'); ?>
+        </div>
+        <!-- end: Footer -->
+        <!-- end: Body Inner -->
+        <!-- Scroll top -->
+        <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+        <!--Plugins-->
+        <script src="js/jquery.js"></script>
+        <script src="js/plugins.js"></script>
+        <!--Template functions-->
+        <script src="js/functions.js"></script>
+</body>
+</html>

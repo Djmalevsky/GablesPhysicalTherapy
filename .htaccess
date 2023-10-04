@@ -1,0 +1,58 @@
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^everythingpt\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.everythingpt\.com$
+RewriteRule ^/?$ "https://everythingpt.com/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^everythingpt\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.everythingpt\.com$
+
+# Redirect old pages to new ones
+RewriteRule ^shortcode-testimonial.html$ /MeetTheDoctor [R=301,L]
+RewriteRule ^about.php$ /WhatWeTreat [R=301,L]
+
+# Remove .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Case-insensitive redirection for the Blog directory
+RewriteCond %{REQUEST_URI} !^/Blog/ [NC]
+RewriteCond %{REQUEST_URI} ^/blog(/.*)?$ [NC]
+RewriteRule ^blog(/.*)?$ /Blog/$1 [R=301,L]
+
+# Case-insensitive redirection for the Contact directory
+RewriteCond %{REQUEST_URI} !^/Contact [NC]
+RewriteCond %{REQUEST_URI} ^/contact(/.*)?$ [NC]
+RewriteRule ^contact(/.*)?$ /Contact$1 [R=301,L]
+
+# Case-insensitive redirection for the Services directory
+RewriteCond %{REQUEST_URI} !^/Services [NC]
+RewriteCond %{REQUEST_URI} ^/services(/.*)?$ [NC]
+RewriteRule ^services(/.*)?$ /Services$1 [R=301,L]
+
+# Custom error pages
+ErrorDocument 404 /404.php
+ErrorDocument 500 /page-500.php
+
+# Redirect for the broken contact page link
+RewriteCond %{REQUEST_URI} ^/page-contact-classic\.html [NC]
+RewriteRule ^page-contact-classic\.html$ /Contact [R=301,L]
+
+# Redirect /Services/Cash-Based-Physical-Therapy.html to /Services/Cash-Based-Physical-Therapy
+RewriteRule ^Services/Cash-Based-Physical-Therapy\.html$ /Services/Cash-Based-Physical-Therapy [R=301,L]
+# Redirect /home/lk9m6h565ww6/public_html/everythingpt.com/WhatWeTreat to /WhatWeTreat
+RewriteRule ^home/lk9m6h565ww6/public_html/everythingpt.com/WhatWeTreat$ /WhatWeTreat [R=301,L]
+# Redirect /page-faq.html to /faq
+RewriteRule ^page-faq\.html$ /faq [R=301,L]
+
+# Redirect /Contact/index.html to /Contact
+RewriteRule ^Contact/index\.html$ /Contact [R=301,L]
+
+# Redirect /Services/index.html to /Services
+RewriteRule ^Services/index\.html$ /Services [R=301,L]
+
+# Redirect /page-about-extended.html to /WhatWeTreat
+RewriteRule ^page-about-extended\.html$ /WhatWeTreat [R=301,L]

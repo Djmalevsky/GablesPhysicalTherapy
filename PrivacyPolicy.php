@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="EverythingPT | Privacy Policy">
+  <meta name="robots" content="index, follow" />
+  <title>EverythingPT | Privacy Policy</title>
+  <!-- Stylesheets & Fonts -->
+  <link href="css/plugins.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Search Engine Optimization -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EverythingPT | Privacy Policy">
+  <meta property="og:description" content="Privacy Policy of EverythingPT">
+  <meta property="og:url" content="https://www.everythingpt.com/PrivacyPolicy.php">
+  <meta property="og:image" content="/images/logos/EPT.png">
+  <meta property="og:image:width" content="900">
+  <meta property="og:image:height" content="754">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EverythingPT | Privacy Policy">
+  <meta name="twitter:description" content="Privacy Policy of EverythingPT">
+  <meta name="twitter:image" content="/images/logos/EPT.png">
+  <link rel="canonical" href="https://www.everythingpt.com/PrivacyPolicy.php" />
+  <link rel="icon" type="image/png" href="/images/logos/EPT.png">
+
+  <!-- Additional SEO data -->
+  <meta name="keywords" content="physical therapy, physical therapist, privacy policy">
+  <meta name="author" content="Dr. Eric Rosenfield">
+  <meta name="language" content="English">
+   <!-- Google tag (gtag.js) -->
+</head>
+
+
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- Header -->
+        <?php include('include/header.php'); ?>
+        <!-- end: Header -->
+        <!-- 404 PAGE -->
+        <section id="page-title" class="text-dark">
+            <div class="container">
+                <div class="row">
+                   <h1 class="page-title">Privacy Policy</h1>
+                    </div>
+                </div>
+        </section>
+        <section>
+    <div class="container">
+        <div class="heading-text heading-section text-center">
+            <h2>Our Commitment to Your Privacy</h2>
+            <p style="font-size: 22px;font-weight: bold;color: #000;line-height: 1.5;">At EverythingPT, we are committed to protecting your privacy. This policy outlines how we collect, use, and protect your information.</p>
+        </div>
+        <div class="row">
+            <div class="icon-box effect medium border center">
+                <h2>What Information We Collect</h2>
+                <div class="flex-container">
+                    <p class="description-text">We collect personal information such as your name, email address, and demographic data. We also collect data about your browsing behavior on our site.</p>
+                </div>
+                <br>
+                <h2>How We Collect Information</h2>
+                <div class="flex-container">
+                    <p class="description-text">We collect information directly from you when you fill out forms on our site. We also use cookies and third-party tools like Google Analytics and Facebook Pixel to collect data.</p>
+                </div>
+                <h2>How We Use Information</h2>
+                <div class="flex-container">
+                    <p class="description-text">We use the information we collect to improve our website, provide you with personalized content, and for marketing purposes.</p>
+                </div>
+                <br>
+                 <h2>How We Share Information</h2>
+                <div class="flex-container">
+                    <p class="description-text">We may share your information with third-party service providers to help us with our business activities. We may also disclose your information if required by law.</p>
+                </div>
+                <br>
+                <h2>How We Store and Protect Information</h2>
+                <div class="flex-container">
+                    <p class="description-text">We store your data on secure servers and implement security measures to protect your information. We retain your data for as long as necessary to fulfill the purposes outlined in this policy.</p>
+                </div>
+                <br>
+                <h2>Your Rights</h2>
+                <div class="flex-container">
+                    <p class="description-text">You have the right to access, correct, or delete your personal data. Please contact us if you wish to exercise these rights.</p>
+                </div>
+                <br>
+                <h2>Third-Party Services</h2>
+                <div class="flex-container">
+                    <p class="description-text">We use Google Analytics and Facebook Pixel to help us understand how our website is being used. These tools collect data about your behavior on our site.</p>
+                </div>
+                <br>
+                <h2>Cookies Policy</h2>
+                <div class="flex-container">
+                    <p class="description-text">We use cookies to enhance your experience on our site. You can control your cookie settings in your browser.</p>
+                </div>
+                <br>
+                <h2>Contact Us</h2>
+                <div class="flex-container">
+                    <p class="description-text">If you have any questions about this policy, please contact us at [email address].</p>
+                </div>
+                <br>
+                <h2>Policy Updates</h2>
+                <div class="flex-container">
+                    <p class="description-text">We may update this policy from time to time. We will notify you of any changes by posting the new policy on this page.</p>
+                </div>
+                <!-- Add more sections as needed -->
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- end:  404 PAGE -->
+        <!-- Footer -->
+        <?php include('include/footer.php'); ?>
+        <!-- end: Footer -->
+        </div>
+        <!-- end: Body Inner -->
+        <!-- Scroll top -->
+        <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+        <!--Plugins-->
+        <script src="js/jquery.js"></script>
+        <script src="js/plugins.js"></script>
+        <!--Template functions-->
+        <script src="js/functions.js"></script>
+</body>
+
+</html>

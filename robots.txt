@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /everythingpt.com/menu.html
+
+Sitemap: https://everythingpt.com/sitemap.xml

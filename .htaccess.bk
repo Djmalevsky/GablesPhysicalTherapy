@@ -1,0 +1,51 @@
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^everythingpt\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.everythingpt\.com$
+RewriteRule ^/?$ "https\:\/\/everythingpt\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^everythingpt\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.everythingpt\.com$
+
+# The redirect to index.html has been removed because it would conflict with the rewrite rules to remove .php extensions
+
+# Redirect old pages to new ones
+RewriteRule ^shortcode-testimonial.html$ /MeetTheDoctor [R=301,L]
+RewriteRule ^page-about-extended.html$ /WhatWeTreat [R=301,L]
+RewriteRule ^about.php$ /WhatWeTreat.php [R=301,L]
+
+# Remove .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1 [R=301,L]
+
+# Case-insensitive redirection for the Services directory
+RewriteCond %{REQUEST_URI} !^/Services/ [NC]
+RewriteCond %{REQUEST_URI} ^/services(/.*)?$ [NC]
+RewriteRule ^services(/.*)?$ /Services$1 [R=301,L]
+
+# Case-insensitive redirection for the Blog directory
+RewriteCond %{REQUEST_URI} !^/Blog/ [NC]
+RewriteCond %{REQUEST_URI} ^/blog(/.*)?$ [NC]
+RewriteRule ^blog(/.*)?$ /Blog$1 [R=301,L]
+
+# Case-insensitive redirection for the Contact directory
+RewriteCond %{REQUEST_URI} !^/Contact/ [NC]
+RewriteCond %{REQUEST_URI} ^/contact(/.*)?$ [NC]
+RewriteRule ^contact(/.*)?$ /Contact$1 [R=301,L]
+
+# Custom error pages
+ErrorDocument 404 /404.php
+ErrorDocument 500 /page-500.php
+
+# Redirect for the broken contact page link
+RewriteCond %{REQUEST_URI} ^/page-contact-classic\.html [NC]
+RewriteRule ^page-contact-classic\.html$ /Contact/ [R=301,L]
+
+Redirect 301 /Contact/index.html http://www.everythingpt.com/Contact
+Redirect 301 /Services/Cash-Based-Physical-Therapy.html http://www.everythingpt.com//Services/Cash-Based-Physical-Therapy.php
+Redirect 301 /Services/index.html http://www.everythingpt.com/Services
+Redirect 301 /home/lk9m6h565ww6/public_html/everythingpt.com/WhatWeTreat http://www.everythingpt.com/WhatWeTreat.php
+Redirect 301 /page-faq.html http://www.everythingpt.com/faq

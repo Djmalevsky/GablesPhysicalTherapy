@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Meet Dr. Eric Rosenfield">
+  <meta name="robots" content="index, follow" />
+  <title>EverythingPT | Meet The Doctor</title>
+  <!-- Stylesheets & Fonts -->
+  <link href="../css/plugins.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!-- Search Engine Optimization -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EverythingPT | Testimonials">
+  <meta property="og:description" content="Dr. Eric Rosenfield Testimonials">
+  <meta property="og:url" content="https://www.everythingpt.com/MeetTheDoctor">
+  <meta property="og:image" content="/images/logos/EPT.png">
+  <meta property="og:image:width" content="900">
+  <meta property="og:image:height" content="754">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EverythingPT | Testimonials">
+  <meta name="twitter:description" content="Dr. Eric Rosenfield Testimonials">
+  <meta name="twitter:image" content="/images/logos/EPT.png">
+  <link rel="canonical" href="https://www.everythingpt.com/MeetTheDoctor" />
+  <link rel="icon" type="image/png" href="/images/logos/EPT.png">
+
+  <!-- Additional SEO data -->
+  <meta name="keywords" content="physical therapy, physical therapist, testimonials, Dr. Eric Rosenfield">
+  <meta name="author" content="Dr.Eric Rosenfield">
+  <meta name="language" content="English">
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="../js/custom.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NPHC1LVQWX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NPHC1LVQWX');
+  </script>
+</head>
+
+
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- Header -->
+        <?php include('include/header.php'); ?>
+        <!-- end: Header -->
+        <!-- Content -->
+        <section id="page-content">
+
+            <div class="container">
+                <div class="heading-text heading-section text-center">
+                    <h2>Meet Dr. Eric Rosenfield</h2>
+                </div>
+                <div class="row team-members m-b-40">
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <div class="team-image">
+                                <img src="images/pages/DrEric.webp" alt="Dr. Eric" >
+                            </div>
+                            <div class="team-desc">
+                                <h3>Dr. Eric Rosenfield</h3>
+                                <span>PT, DPT</span>
+                              <!--  <div class="align-center">
+                                    <a class="btn btn-xs btn-slide btn-light" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
+                                        <i class="fab fa-twitter"></i>
+                                        <span>Twitter</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
+                                        <i class="fab fa-instagram"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
+                                        <i class="icon-mail"></i>
+                                        <span>Mail</span>
+                                    </a>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                    <p>Introducing Dr. Eric Rosenfield, a passionate and dedicated physical therapist who believes in the power of movement to enhance overall health and well-being. With a unique blend of academic knowledge and compassionate care, he aims to transform the lives of his patients by alleviating their pain and improving their quality of life.
+
+                    Dr. Rosenfield's journey in the field of physical therapy was initiated by his degree in Kinesiology from Temple University, followed by earning a Doctor of Physical Therapy degree from the University Sciences of Philadelphia. Supplementing his formal education, he holds a valuable certification as a Strength and Conditioning Specialist, enabling him to cater to diverse patient needs with a range of effective treatments.
+
+                    His primary objective revolves around enabling individuals, especially busy professionals, to regain their normal, pain-free lives. This is achieved by circumventing the common reliance on injections or painkillers and reducing the necessity for frequent doctor visits.
+
+                    Beyond his day-to-day practice, Dr. Rosenfield is propelled by a monumental mission: to relieve over a million individuals from the distressing pain associated with neuropathy and other progressive conditions. This commitment extends from his core belief in the transformative power of physical therapy. As your partner in health, Dr. Rosenfield cherishes the personal connections he forms with each patient, and is dedicated to offering a personalized approach to care.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="seperator"><i class="fa fa-chevron-down"></i>
+            </div>
+            <hr class="space">
+        </section>
+        <!-- Page title -->
+        <section id="page-title">
+            <div class="container">
+                <div class="page-title">
+                    <h1>Testimonial</h1>
+                    <span>Our Success Stories</span>
+                </div>
+            </div>
+        </section>
+        <!-- end: Page title -->
+        
+       <!-- Testimonial Carousel -->
+        <section class="background-grey">
+            <div class="container-fluid">
+                <!-- Testimonials -->
+                <div class="carousel equalize testimonial testimonial-box" data-margin="20" data-arrows="false" data-items="4" data-items-sm="2" data-items-xxs="1" data-equalize-item=".testimonial-item">
+                    <!-- Testimonials item -->
+                    <div class="testimonial-item">
+                        <img src="../../images/team/Dennis2.png" alt="">
+						<span>Dennis Pantalena</span>
+                        <p>"My therapy experience was excellent. I found my therapist, Dr Eric, to be patient, attentive to my condition, and very knowledgeable."<button class="btn btn-transparent testimonial-toggle" data-target="text5">Read More</button></p> 
+                        <span id="text5" style="display:none; margin-top: -30px;">"He gave me a game plan to concentrate my energies and as followed I am now pain free. I would recommend anyone in need of therapy to try Everything Physical Therapy and you’ll be glad you did."</span> 
+						<div class="image-google">
+							<img src="../../images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/AunJ6vqAyejLuy6F6">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="../../images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="../../images/team/Testimonial-shachar.png" alt="">
+						<span>Shachar Sharabi</span>
+                        <p>"I’ve found Everything Physical Therapy on Google and they had good reviews and I loved the fact that they come to your house, I talked to Dr Rosenfield and  he sounded courteous and professional"<button class="btn btn-transparent testimonial-toggle" data-target="text4">Read More</button></p> 
+                        <span id="text4" style="display:none; margin-top: -30px;">" so I booked a session
+                            It was my best physical therapy experience, Dr Rosenfield is a people’s person, but more importantly he is extremely knowledgeable and on point.
+                            We set a plan of 10 sessions with clear targets and progress I’m now in my fourth session and boy do I feel better.
+                            I highly recommend"</span> 
+						<div class="image-google">
+							<img src="../../images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/am9CM9cTiUiSAvRV7">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="../../images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <!-- Testimonials item -->
+                    <div class="testimonial-item">
+                        <img src="../../images/team/DeonGray.png" alt="" href="https://goo.gl/maps/4Xnu9KQMTeagPHEP8">
+						<span>Deon Gray</span>
+                        <p>"I had major surgery on both of my feet & was wheelchair bound for 2 months.
+                            I have been having physical therapy sessions with Therapist Eric."<button class="btn btn-transparent testimonial-toggle" data-target="text2" id="toggle2">Read More</button></p> 
+                                                    <span id="text2" style="display:none; margin-top: -30px;">"He has been a God Send!!!
+                            He is extremely knowledgeable in all areas of therapy.
+                            He is patient & listens to my concerns.
+                            His methods are tailored for & very effective and precise to my condition.
+                            I am now walking & reaching my goal of a complete recovery.
+                            Thank you Eric."</span> 
+						<div class="image-google">
+							<img src="../../images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://www.google.com/maps/contrib/117502270512535908189/place/ChIJr4iAWvYH2YgRKMTxGnHsH6Q/@25.9783098,-80.1215074,16z/data=!4m6!1m5!8m4!1e1!2s117502270512535908189!3m1!1e1?hl=en-US">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="../../images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <!-- end: Testimonials item-->
+                    <div class="testimonial-item">
+                        <img src="../../images/team/KenieshaMcCook.png" alt="">
+						<span>Keniesha McCook</span>
+                        <p>"Dr Eric Rosenfield is just simply amazing! I can honestly say this is the best physical therapist hands down. I was recommeded to the practise by my neurologist due to a herniated disc. When I started working with him I was experiencing the most excruciating pain."<button class="btn btn-transparent testimonial-toggle" data-target="text3" id="toggle3">Read More</button></p> 
+                        <span id="text3" style="display:none; margin-top: -30px;">"Literally was not able to stand or walk for more than 5 minutes without sitting. He worked his magic and by week 5 my pain rating went from a 9 to a 4. My neuro surgeon that worked with my neurologist  recommended that I do surgery stating that based on my scans it was very bad. However, I decided against that because I felt the improvements from the sessions I did with Dr Rosenfield and I didn't think surgery was necessary. I continued going to therapy and now I can say I am 100% pain free! I don't know how to thank him because I can honestly say this is a miracle compared to stories I have read from people in similar situations. Eric is patient, pleasant, personable always makes sure youre comfortable and the best in the business! Thank you Eric. You are very good at what you do. Now I can definitely enjoy my vacations and be back to regular normal activities. You rock!!!"</span> 
+						<div class="image-google">
+							<img src="../../images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/jh8XxDymDggX3vjq5">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="/images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <!-- end: Testimonials item-->
+                    <div class="testimonial-item">
+                        <img src="/images/team/TaraMathison.png" alt="">
+						<span>Tara Mathison</span>
+                        <p>"Before I started PT I was in a lot of pain and because of Dr. Rosenfeld's attention to detail I am feeling so much better. He is  excellent at what he does and shows a lot of care and compassion for his patients. Highly recommend!"</p> 
+						<div class="image-google">
+							<img src="/images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/kC26P3Wxcy5wt6je7">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="/images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <!-- end: Testimonials item-->
+                    <div class="testimonial-item">
+                        <img src="/images/team/KeithBabol.png" alt="">
+						<span>Keith Babol</span>
+                        <p>"Dr. Eric has been "Everything Physical Therapy"! He is patient and thorough and goes above and beyond physical therapy to make sure I was receiving the care I needed."</p>
+ 						<div class="image-google">
+							<img src="/images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/wXvj9fCgvdvBdvSP8">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="/images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <!-- end: Testimonials item-->
+                    <div class="testimonial-item">
+                        <img src="/images/team/Testimonial6.png" alt="">
+						<span>Charles Stewart</span>
+                        <p>"Dr.Eric has been great in helping me properly rehab my torn patella! He has a very modern approach combining technology and up to date exercises."</p>
+ 						<div class="image-google">
+							<img src="/images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/BGA6TN21xVK2Bpur9">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="/images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <!-- end: Testimonials item-->
+                    <div class="testimonial-item">
+                        <img src="/images/team/Testimonial7.png" alt="">
+						<span>Matthew Hallman</span>
+                        <p>"Dr Eric Rosenfield is an awesome Physical Therapist as he takes the time to understand exactly what your challenges are and develops an individual PT program to address them.  He also encourages home based movements and exercises for long term goals.  All in a relaxing environment, much appreciated!"</p>
+ 						<div class="image-google">
+							<img src="/images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/BGA6TN21xVK2Bpur9">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="/images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <!-- end: Testimonials item-->
+                    <div class="testimonial-item">
+                        <img src="/images/team/Testimonial8.png" alt="">
+						<span>Aitana Klein</span>
+                        <p>"Dr. Rosenfield's concierge service was an amazing experience. He came directly to my apartment and provided me with pain relief for my knees and back! I have been dealing with pain in my knees for years and the doctors I have seen are … "<button class="btn btn-transparent testimonial-toggle" data-target="text6">Read More</button></p>
+                        <span id="text6" style="display:none; margin-top: -30px;">"pushing me for surgery with Dr. Rosenfield's Hollistic approach I can avoid my knee surgery! I would highly recommend!"</span> 
+ 						<div class="image-google">
+							<img src="/images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/8X6yDooRHVeCsZRG7">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="/images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <!-- end: Testimonials item-->
+                    <div class="testimonial-item">
+                        <img src="/images/team/Testimonial9.png" alt="">
+						<span>Kelly Lee</span>
+                        <p>"My physical assessment I feel was the most comprehensive that I’ve experienced.
+                            I had two other therapy assessments for my condition that were good, yet Dr. Eric utilizes a program that takes you through a series of movements that are …"<button class="btn btn-transparent testimonial-toggle" data-target="text7">Read More</button></p>
+                        <span id="text7" style="display:none; margin-top: -30px;">" recorded. He provides quality time and thorough explanations of what you are experiencing and an overview of the test results.  He truly is gifted in his discipline.
+                            Warm, welcoming environment that is extremely professional and knowledgeable.
+                            Great therapist. Highly recommend!"</span> 
+ 						<div class="image-google">
+							<img src="/images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/8X6yDooRHVeCsZRG7">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="/images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="/images/team/Testimonial10.png" alt="">
+						<span>Carolyn Clark</span>
+                        <p>"My therapist is the most experienced and thorough therapist very patience and listen to complaints Thanks Eric"</p>
+ 						<div class="image-google">
+							<img src="/images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/8X6yDooRHVeCsZRG7">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="/images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="/images/team/Testimonial11.png" alt="">
+						<span>Kelvin Abreu</span>
+                        <p>"Dr.Eric has been great! I came in after a slap tear and the miracles he has perform to at least get me back to the simple life has been phenomenal. I highly recommend Dr. E to anyone."</p>
+ 						<div class="image-google">
+							<img src="/images/team/GoogleLogo2.png"></img>
+						</div>
+						<span style="text-align:left">Posted On&nbsp;<br></span>
+						<span style="text-align:left"><a href="https://goo.gl/maps/ix2NBk7MVJDrr5r59">Google&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+						<div class="image-new">
+							<img src="/images/team/ic_star_rate_15.png"></img>
+						</div>
+                    </div>
+                </div>
+                <!-- end: Testimonials -->
+            </div>
+        </section>
+        <!-- end: Testimonial Carousel -->
+		 <div class="container">
+                <h5>Our Location</h5>
+                <div class="border">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.6868145982644!2d-80.12150738515295!3d25.97830978353882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d907f65a8088af%3A0xa41fec711af1c428!2sEverything%20Physical%20Therapy!5e0!3m2!1sen!2sus!4v1676035365583!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+                <div class="line"></div>
+</div>    
+        <!-- Footer -->
+        <?php include('include/footer.php'); ?>
+        <!-- end: Footer -->
+        <!-- end: Testimonial Carousel -->
+        <!-- Footer -->
+        <!-- end: Footer -->
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+    	<script type="text/javascript">
+	$(document).ready(function() {
+  $("#toggle").click(function() {
+    var elem = $("#toggle").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle").text("Read Less");
+      $("#text").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle").text("Read More");
+      $("#text").slideUp();
+    }
+  });
+  
+  
+    $("#toggle2").click(function() {
+    var elem = $("#toggle2").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle2").text("Read Less");
+      $("#text2").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle2").text("Read More");
+      $("#text2").slideUp();
+    }
+  });
+  
+      $("#toggle3").click(function() {
+    var elem = $("#toggle3").text();
+    if (elem == "Read More") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle3").text("Read Less");
+      $("#text3").slideDown();
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle3").text("Read More");
+      $("#text3").slideUp();
+    }
+  });
+});
+</script>
+</body>
+
+</html>
